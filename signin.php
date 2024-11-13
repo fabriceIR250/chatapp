@@ -8,7 +8,7 @@
 </head>
 <body>
   <div class="signin-container">
-    <form class="signin-form">
+    <form class="signin-form" action="select.php" method="POST">
       <h2>Welcome Back</h2>
       
       <label>Email</label>
@@ -17,7 +17,7 @@
       <label>Password</label>
       <input type="password" id="password" name="password" required placeholder="Enter your password">
       
-      <button type="submit" class="signin-btn">Sign In</button>
+      <button type="submit" class="signin-btn" name="send">Sign In</button>
       
       <p class="forgot-password">
         <a href="#">Forgot password?</a>
