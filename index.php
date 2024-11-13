@@ -27,7 +27,7 @@
         <div class="hero-content">
             <h2>Welcome to ChatApp</h2>
             <p>The best place to chat with friends, family, and colleagues.</p>
-            <a href="#signup" class="cta-button">Get Started</a>
+            <a href="signin.php" class="cta-button">Get Started</a>
         </div>
     </section>
 
