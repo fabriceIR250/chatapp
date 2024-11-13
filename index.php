@@ -34,7 +34,9 @@
     <!-- Features Section -->
     <section class="features">
         <div class="feature">
-      
+      <marquee behavior="" direction="left"><h2>Welcome to ChatApp</h2>
+    
+    </marquee>
         </div>
     </section>
 </body>
