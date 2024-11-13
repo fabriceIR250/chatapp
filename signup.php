@@ -8,23 +8,22 @@
 </head>
 <body>
   <div class="signup-container">
-    <form class="signup-form">
+    <form class="signup-form" action="insert.php" method="POST">
       <h2>Create Your Account</h2>
       
-      <label for="username">Username</label>
-      <input type="text" id="username" name="username" required placeholder="Enter your username">
+      <label>Username</label>
+      <input type="text" name="username" required placeholder="Enter your username">
       
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" required placeholder="Enter your email">
+      <label>Email</label>
+      <input type="email" name="email" required placeholder="Enter your email">
       
-      <label for="password">Password</label>
-      <input type="password" id="password" name="password" required placeholder="Enter your password">
+      <label>Password</label>
+      <input type="password" name="password" required placeholder="Enter your password">
       
-      <label for="confirm-password">Confirm Password</label>
+      <label>Confirm Password</label>
       <input type="password" id="confirm-password" name="confirm-password" required placeholder="Confirm your password">
       
-      <button type="submit" class="signup-btn">Sign Up</button>
-      
+      <button type="submit" class="signup-btn" name="send">Sign Up</button>
       <p class="terms">
         By signing up, you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.
       </p>

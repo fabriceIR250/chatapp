@@ -11,10 +11,10 @@
     <form class="signin-form">
       <h2>Welcome Back</h2>
       
-      <label for="email">Email</label>
+      <label>Email</label>
       <input type="email" id="email" name="email" required placeholder="Enter your email">
       
-      <label for="password">Password</label>
+      <label>Password</label>
       <input type="password" id="password" name="password" required placeholder="Enter your password">
       
       <button type="submit" class="signin-btn">Sign In</button>
