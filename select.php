@@ -10,13 +10,14 @@ include "conn.php";
      $result=mysqli_query($con,"SELECT * FROM users WHERE email='$email' AND password='$password'");
 
      if (mysqli_num_rows($result)>0) {
-        
-         session_start();
-         $_SESSION['email'] = $email;
-         $_SESSION['login'] = true;
-         header("Location:chat.php");
-         exit();
-
+       $data=mysqli_fetch_assoc($result);
+       session_start();
+       $_SESSION['id'] = $data['id'];
+       $_SESSION['email'] = $data['email'];
+       $_SESSION['name'] = $data['username'];
+       $_SESSION['login'] = true;
+       header("Location: chat.php");
+       exit();
 
      }
      else {
